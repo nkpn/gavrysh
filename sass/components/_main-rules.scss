@@ -123,9 +123,9 @@
 
 .picture-list-two-items {
   display: flex;
-  // flex-wrap: wrap;
-  // justify-content: space-between;
-  // flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
 
   @media screen and (max-width: $mobile) {
     flex-direction: column;
